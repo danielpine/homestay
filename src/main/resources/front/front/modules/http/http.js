@@ -3,9 +3,9 @@ layui.define(['jquery', 'layer'], function(exports) { //提示：模块也可以
 	"use strict";
 	var jquery = layui.jquery,
 		layer = layui.layer,
-		        baseurl = "http://localhost:8080/springbootj470j/";
+		        baseurl = "http://localhost:8080/homestay/";
         	var http = {
-		        domain : "http://localhost:8080/springbootj470j/",
+		        domain : "http://localhost:8080/homestay/",
         		baseurl: baseurl,
 		/**
 		 * 获取传递参数值(修改支持中文)

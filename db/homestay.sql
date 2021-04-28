@@ -65,7 +65,7 @@ CREATE TABLE `config` (
 
 LOCK TABLES `config` WRITE;
 /*!40000 ALTER TABLE `config` DISABLE KEYS */;
-INSERT INTO `config` VALUES (1,'picture1','http://localhost:8080/springbootj470j/upload/picture1.jpg'),(2,'picture2','http://localhost:8080/springbootj470j/upload/picture2.jpg'),(3,'picture3','http://localhost:8080/springbootj470j/upload/picture3.jpg'),(6,'homepage',NULL);
+INSERT INTO `config` VALUES (1,'picture1','http://localhost:8080/homestay/upload/picture1.jpg'),(2,'picture2','http://localhost:8080/homestay/upload/picture2.jpg'),(3,'picture3','http://localhost:8080/homestay/upload/picture3.jpg'),(6,'homepage',NULL);
 /*!40000 ALTER TABLE `config` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -223,7 +223,7 @@ CREATE TABLE `fangjianxinxi` (
 
 LOCK TABLES `fangjianxinxi` WRITE;
 /*!40000 ALTER TABLE `fangjianxinxi` DISABLE KEYS */;
-INSERT INTO `fangjianxinxi` VALUES (51,'2021-03-05 15:55:18','商家编号1','民宿名称1','房间类型1','http://localhost:8080/springbootj470j/upload/fangjianxinxi_tupian1.jpg','房间设施1',1,'房间介绍1','收取金额1',1,1,'2021-03-06 00:00:28',4),(52,'2021-03-05 15:55:18','商家编号2','民宿名称2','房间类型2','http://localhost:8080/springbootj470j/upload/fangjianxinxi_tupian2.jpg','房间设施2',2,'房间介绍2','收取金额2',2,2,'2021-03-05 23:55:18',2),(53,'2021-03-05 15:55:18','商家编号3','民宿名称3','房间类型3','http://localhost:8080/springbootj470j/upload/fangjianxinxi_tupian3.jpg','房间设施3',3,'房间介绍3','收取金额3',3,3,'2021-03-05 23:55:18',3),(54,'2021-03-05 15:55:18','商家编号4','民宿名称4','房间类型4','http://localhost:8080/springbootj470j/upload/fangjianxinxi_tupian4.jpg','房间设施4',4,'房间介绍4','收取金额4',4,4,'2021-03-05 23:55:18',4),(55,'2021-03-05 15:55:18','商家编号5','民宿名称5','房间类型5','http://localhost:8080/springbootj470j/upload/fangjianxinxi_tupian5.jpg','房间设施5',5,'房间介绍5','收取金额5',5,5,'2021-03-05 23:55:18',5),(56,'2021-03-05 15:55:18','商家编号6','民宿名称6','房间类型6','http://localhost:8080/springbootj470j/upload/fangjianxinxi_tupian6.jpg','房间设施6',6,'房间介绍6','收取金额6',6,6,'2021-03-05 23:55:18',6);
+INSERT INTO `fangjianxinxi` VALUES (51,'2021-03-05 15:55:18','商家编号1','民宿名称1','房间类型1','http://localhost:8080/homestay/upload/fangjianxinxi_tupian1.jpg','房间设施1',1,'房间介绍1','收取金额1',1,1,'2021-03-06 00:00:28',4),(52,'2021-03-05 15:55:18','商家编号2','民宿名称2','房间类型2','http://localhost:8080/homestay/upload/fangjianxinxi_tupian2.jpg','房间设施2',2,'房间介绍2','收取金额2',2,2,'2021-03-05 23:55:18',2),(53,'2021-03-05 15:55:18','商家编号3','民宿名称3','房间类型3','http://localhost:8080/homestay/upload/fangjianxinxi_tupian3.jpg','房间设施3',3,'房间介绍3','收取金额3',3,3,'2021-03-05 23:55:18',3),(54,'2021-03-05 15:55:18','商家编号4','民宿名称4','房间类型4','http://localhost:8080/homestay/upload/fangjianxinxi_tupian4.jpg','房间设施4',4,'房间介绍4','收取金额4',4,4,'2021-03-05 23:55:18',4),(55,'2021-03-05 15:55:18','商家编号5','民宿名称5','房间类型5','http://localhost:8080/homestay/upload/fangjianxinxi_tupian5.jpg','房间设施5',5,'房间介绍5','收取金额5',5,5,'2021-03-05 23:55:18',5),(56,'2021-03-05 15:55:18','商家编号6','民宿名称6','房间类型6','http://localhost:8080/homestay/upload/fangjianxinxi_tupian6.jpg','房间设施6',6,'房间介绍6','收取金额6',6,6,'2021-03-05 23:55:18',6);
 /*!40000 ALTER TABLE `fangjianxinxi` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -297,7 +297,7 @@ CREATE TABLE `minsuxinxi` (
 
 LOCK TABLES `minsuxinxi` WRITE;
 /*!40000 ALTER TABLE `minsuxinxi` DISABLE KEYS */;
-INSERT INTO `minsuxinxi` VALUES (31,'2021-03-05 15:55:18','商家编号1','民宿编号1','民宿名称1','民宿地址1','http://localhost:8080/springbootj470j/upload/minsuxinxi_minsutupian1.jpg','民宿简介',2,2,'2021-03-06 00:06:22'),(32,'2021-03-05 15:55:18','商家编号2','民宿编号2','民宿名称2','民宿地址2','http://localhost:8080/springbootj470j/upload/minsuxinxi_minsutupian2.jpg','民宿简介2',2,2,'2021-03-05 23:55:18'),(33,'2021-03-05 15:55:18','商家编号3','民宿编号3','民宿名称3','民宿地址3','http://localhost:8080/springbootj470j/upload/minsuxinxi_minsutupian3.jpg','民宿简介3',3,3,'2021-03-05 23:55:18'),(34,'2021-03-05 15:55:18','商家编号4','民宿编号4','民宿名称4','民宿地址4','http://localhost:8080/springbootj470j/upload/minsuxinxi_minsutupian4.jpg','民宿简介4',4,4,'2021-03-05 23:55:18'),(35,'2021-03-05 15:55:18','商家编号5','民宿编号5','民宿名称5','民宿地址5','http://localhost:8080/springbootj470j/upload/minsuxinxi_minsutupian5.jpg','民宿简介5',5,5,'2021-03-05 23:55:18'),(36,'2021-03-05 15:55:18','商家编号6','民宿编号6','民宿名称6','民宿地址6','http://localhost:8080/springbootj470j/upload/minsuxinxi_minsutupian6.jpg','民宿简介6',6,6,'2021-03-05 23:55:18');
+INSERT INTO `minsuxinxi` VALUES (31,'2021-03-05 15:55:18','商家编号1','民宿编号1','民宿名称1','民宿地址1','http://localhost:8080/homestay/upload/minsuxinxi_minsutupian1.jpg','民宿简介',2,2,'2021-03-06 00:06:22'),(32,'2021-03-05 15:55:18','商家编号2','民宿编号2','民宿名称2','民宿地址2','http://localhost:8080/homestay/upload/minsuxinxi_minsutupian2.jpg','民宿简介2',2,2,'2021-03-05 23:55:18'),(33,'2021-03-05 15:55:18','商家编号3','民宿编号3','民宿名称3','民宿地址3','http://localhost:8080/homestay/upload/minsuxinxi_minsutupian3.jpg','民宿简介3',3,3,'2021-03-05 23:55:18'),(34,'2021-03-05 15:55:18','商家编号4','民宿编号4','民宿名称4','民宿地址4','http://localhost:8080/homestay/upload/minsuxinxi_minsutupian4.jpg','民宿简介4',4,4,'2021-03-05 23:55:18'),(35,'2021-03-05 15:55:18','商家编号5','民宿编号5','民宿名称5','民宿地址5','http://localhost:8080/homestay/upload/minsuxinxi_minsutupian5.jpg','民宿简介5',5,5,'2021-03-05 23:55:18'),(36,'2021-03-05 15:55:18','商家编号6','民宿编号6','民宿名称6','民宿地址6','http://localhost:8080/homestay/upload/minsuxinxi_minsutupian6.jpg','民宿简介6',6,6,'2021-03-05 23:55:18');
 /*!40000 ALTER TABLE `minsuxinxi` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -328,7 +328,7 @@ CREATE TABLE `shangjia` (
 
 LOCK TABLES `shangjia` WRITE;
 /*!40000 ALTER TABLE `shangjia` DISABLE KEYS */;
-INSERT INTO `shangjia` VALUES (21,'2021-03-05 15:55:18','商家编号1','123456','商家名称1','13823888881','http://localhost:8080/springbootj470j/upload/shangjia_touxiang1.jpg','备注1'),(22,'2021-03-05 15:55:18','商家2','123456','商家名称2','13823888882','http://localhost:8080/springbootj470j/upload/shangjia_touxiang2.jpg','备注2'),(23,'2021-03-05 15:55:18','商家3','123456','商家名称3','13823888883','http://localhost:8080/springbootj470j/upload/shangjia_touxiang3.jpg','备注3'),(24,'2021-03-05 15:55:18','商家4','123456','商家名称4','13823888884','http://localhost:8080/springbootj470j/upload/shangjia_touxiang4.jpg','备注4'),(25,'2021-03-05 15:55:18','商家5','123456','商家名称5','13823888885','http://localhost:8080/springbootj470j/upload/shangjia_touxiang5.jpg','备注5'),(26,'2021-03-05 15:55:18','商家6','123456','商家名称6','13823888886','http://localhost:8080/springbootj470j/upload/shangjia_touxiang6.jpg','备注6'),(1614960177932,'2021-03-05 16:02:57','11','11','11','11111111112','http://localhost:8080/springbootj470j/upload/1614960176499.jpg',NULL);
+INSERT INTO `shangjia` VALUES (21,'2021-03-05 15:55:18','商家编号1','123456','商家名称1','13823888881','http://localhost:8080/homestay/upload/shangjia_touxiang1.jpg','备注1'),(22,'2021-03-05 15:55:18','商家2','123456','商家名称2','13823888882','http://localhost:8080/homestay/upload/shangjia_touxiang2.jpg','备注2'),(23,'2021-03-05 15:55:18','商家3','123456','商家名称3','13823888883','http://localhost:8080/homestay/upload/shangjia_touxiang3.jpg','备注3'),(24,'2021-03-05 15:55:18','商家4','123456','商家名称4','13823888884','http://localhost:8080/homestay/upload/shangjia_touxiang4.jpg','备注4'),(25,'2021-03-05 15:55:18','商家5','123456','商家名称5','13823888885','http://localhost:8080/homestay/upload/shangjia_touxiang5.jpg','备注5'),(26,'2021-03-05 15:55:18','商家6','123456','商家名称6','13823888886','http://localhost:8080/homestay/upload/shangjia_touxiang6.jpg','备注6'),(1614960177932,'2021-03-05 16:02:57','11','11','11','11111111112','http://localhost:8080/homestay/upload/1614960176499.jpg',NULL);
 /*!40000 ALTER TABLE `shangjia` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -357,7 +357,7 @@ CREATE TABLE `storeup` (
 
 LOCK TABLES `storeup` WRITE;
 /*!40000 ALTER TABLE `storeup` DISABLE KEYS */;
-INSERT INTO `storeup` VALUES (1614959955308,'2021-03-05 15:59:15',11,31,'minsuxinxi','民宿名称1','http://localhost:8080/springbootj470j/upload/minsuxinxi_minsutupian1.jpg'),(1614959986124,'2021-03-05 15:59:45',11,51,'fangjianxinxi','民宿名称1','http://localhost:8080/springbootj470j/upload/fangjianxinxi_tupian1.jpg');
+INSERT INTO `storeup` VALUES (1614959955308,'2021-03-05 15:59:15',11,31,'minsuxinxi','民宿名称1','http://localhost:8080/homestay/upload/minsuxinxi_minsutupian1.jpg'),(1614959986124,'2021-03-05 15:59:45',11,51,'fangjianxinxi','民宿名称1','http://localhost:8080/homestay/upload/fangjianxinxi_tupian1.jpg');
 /*!40000 ALTER TABLE `storeup` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -481,7 +481,7 @@ CREATE TABLE `yonghu` (
 
 LOCK TABLES `yonghu` WRITE;
 /*!40000 ALTER TABLE `yonghu` DISABLE KEYS */;
-INSERT INTO `yonghu` VALUES (11,'2021-03-05 15:55:18','用户1','123456','姓名1','男','13823888881','773890001@qq.com','http://localhost:8080/springbootj470j/upload/1614960038782.jpg','备注1'),(12,'2021-03-05 15:55:18','用户2','123456','姓名2','男','13823888882','773890002@qq.com','http://localhost:8080/springbootj470j/upload/yonghu_zhaopian2.jpg','备注2'),(13,'2021-03-05 15:55:18','用户3','123456','姓名3','男','13823888883','773890003@qq.com','http://localhost:8080/springbootj470j/upload/yonghu_zhaopian3.jpg','备注3'),(14,'2021-03-05 15:55:18','用户4','123456','姓名4','男','13823888884','773890004@qq.com','http://localhost:8080/springbootj470j/upload/yonghu_zhaopian4.jpg','备注4'),(15,'2021-03-05 15:55:18','用户5','123456','姓名5','男','13823888885','773890005@qq.com','http://localhost:8080/springbootj470j/upload/yonghu_zhaopian5.jpg','备注5'),(16,'2021-03-05 15:55:18','用户6','123456','姓名6','男','13823888886','773890006@qq.com','http://localhost:8080/springbootj470j/upload/yonghu_zhaopian6.jpg','备注6'),(1614960143912,'2021-03-05 16:02:23','11','11','11','男','13800138000',NULL,'http://localhost:8080/springbootj470j/upload/1614960142850.jpg',NULL);
+INSERT INTO `yonghu` VALUES (11,'2021-03-05 15:55:18','用户1','123456','姓名1','男','13823888881','773890001@qq.com','http://localhost:8080/homestay/upload/1614960038782.jpg','备注1'),(12,'2021-03-05 15:55:18','用户2','123456','姓名2','男','13823888882','773890002@qq.com','http://localhost:8080/homestay/upload/yonghu_zhaopian2.jpg','备注2'),(13,'2021-03-05 15:55:18','用户3','123456','姓名3','男','13823888883','773890003@qq.com','http://localhost:8080/homestay/upload/yonghu_zhaopian3.jpg','备注3'),(14,'2021-03-05 15:55:18','用户4','123456','姓名4','男','13823888884','773890004@qq.com','http://localhost:8080/homestay/upload/yonghu_zhaopian4.jpg','备注4'),(15,'2021-03-05 15:55:18','用户5','123456','姓名5','男','13823888885','773890005@qq.com','http://localhost:8080/homestay/upload/yonghu_zhaopian5.jpg','备注5'),(16,'2021-03-05 15:55:18','用户6','123456','姓名6','男','13823888886','773890006@qq.com','http://localhost:8080/homestay/upload/yonghu_zhaopian6.jpg','备注6'),(1614960143912,'2021-03-05 16:02:23','11','11','11','男','13800138000',NULL,'http://localhost:8080/homestay/upload/1614960142850.jpg',NULL);
 /*!40000 ALTER TABLE `yonghu` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

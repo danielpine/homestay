@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.jlwl</groupId>
 	<!-- 导入项目的名称 -->
-	<artifactId>springbootj470j</artifactId>
+	<artifactId>homestay</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-schema</name>
 	<description>springboot学习框架(war包对应的pom，打war包，执行【mvn clean package -f pom-war.xml】)</description>
@@ -122,7 +122,7 @@
 
 	
 	<build>
-		<finalName>springbootj470j</finalName>
+		<finalName>homestay</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

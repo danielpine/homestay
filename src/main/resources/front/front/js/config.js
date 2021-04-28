@@ -52,7 +52,7 @@ var indexNav = [
 
 ]
 
-var adminurl =  "http://localhost:8080/springbootj470j/admin/dist/index.html";
+var adminurl =  "http://localhost:8080/homestay/admin/dist/index.html";
 
 var cartFlag = false
 
