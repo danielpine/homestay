@@ -257,7 +257,9 @@ public class FangjianxinxiController {
 	}
 	params.put("sort", "clicknum");
 	params.put("order", "desc");
-	PageUtils page = fangjianxinxiService.queryPage(params, MPUtil.sort(MPUtil.between(MPUtil.likeOrEq(ew, fangjianxinxi), params), params));
+	Wrapper wrapper = MPUtil.sort(MPUtil.between(MPUtil.likeOrEq(ew, fangjianxinxi), params), params);
+	wrapper.eq("status", 1);
+	PageUtils page = fangjianxinxiService.queryPage(params, wrapper);
 	return R.ok().put("data", page);
     }
 
