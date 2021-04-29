@@ -1,13 +1,11 @@
 package com.entity.model;
 
-import com.entity.FangjianxinxiEntity;
-
-import com.baomidou.mybatisplus.annotations.TableName;
+import java.io.Serializable;
 import java.util.Date;
+
 import org.springframework.format.annotation.DateTimeFormat;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import java.io.Serializable;
  
 
 /**
@@ -90,8 +88,22 @@ public class FangjianxinxiModel  implements Serializable {
 	 */
 	
 	private Integer clicknum;
-				
 	
+	
+	/**
+	 * 房间状态 0 待审核 1 上架 2 下架
+	 */
+	private Integer status;
+		
+	
+	public Integer getStatus() {
+	    return status;
+	}
+
+	public void setStatus(Integer status) {
+	    this.status = status;
+	}
+
 	/**
 	 * 设置：民宿名称
 	 */

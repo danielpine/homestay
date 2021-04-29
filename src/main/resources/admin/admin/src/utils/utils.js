@@ -10,6 +10,7 @@ export function isAuth(tableName,key) {
         role = '管理员';
     }
     let menus = menu.list();
+    console.log(tableName,menus)
     for(let i=0;i<menus.length;i++){
         if(menus[i].roleName==role){
             for(let j=0;j<menus[i].backMenu.length;j++){
@@ -22,16 +23,6 @@ export function isAuth(tableName,key) {
             }
         }
     }
-    // for(let i=0;i<menus.length;i++){
-    //     if(menus[i].roleName==role){
-    //         for(let j=0;j<menus[i].backMenu.length;j++){
-    //             if(menus[i].backMenu[j].tableName==tableName){
-    //                 let buttons = menus[i].backMenu[j].child[0].buttons.join(',');
-    //                 return buttons.indexOf(key) !== -1 || false
-    //             }
-    //         }
-    //     }
-    // }
     return false;
 }
 
