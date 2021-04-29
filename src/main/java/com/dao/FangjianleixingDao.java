@@ -16,7 +16,7 @@ import com.entity.view.FangjianleixingView;
  * 
  * @author 
  * @email 
- * @date 2021-03-05 23:54:47
+ * @date 2021-04-15 23:54:47
  */
 public interface FangjianleixingDao extends BaseMapper<FangjianleixingEntity> {
 	

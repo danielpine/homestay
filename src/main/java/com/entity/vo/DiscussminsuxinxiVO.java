@@ -16,7 +16,7 @@ import java.io.Serializable;
  * （主要作用去除一些不必要的字段）
  * @author 
  * @email 
- * @date 2021-03-05 23:54:47
+ * @date 2021-04-15 23:54:47
  */
 public class DiscussminsuxinxiVO  implements Serializable {
 	private static final long serialVersionUID = 1L;

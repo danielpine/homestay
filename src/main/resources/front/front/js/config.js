@@ -1,5 +1,5 @@
 
-var projectName = '民宿管理平台';
+var projectName = '民宿预定管理平台';
 /**
  * 轮播图配置
  */
